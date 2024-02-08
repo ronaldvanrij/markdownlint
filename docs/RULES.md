@@ -298,11 +298,7 @@ Corrected Example:
 
 Rationale (3 space indent): This matches the minimum possible indentation
 for _ordered_ lists (i.e Kramdown won't parse anything less than 3 spaces
-as a sublist on OLs), and since MD005 requires consistent indentation
-across lists, anything less than three on this rule will cause a violation
-of MD005 if you have both kinds of lists in the same document.
-
-This means if you want to set this to 2, you'll need to disable MD005.
+as a sublist on OLs).
 
 Rationale (4 space indent): Same indent as code blocks, simpler for editors to
 implement. See
